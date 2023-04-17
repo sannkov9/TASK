@@ -7,13 +7,13 @@
 Console.WriteLine("Введите число: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 
-int NumberB = 2;
+int numberB = 2;
 
 if (numberA > 1)
 {
-    while (NumberB <= numberA)
+    while (numberB <= numberA)
     {
-        Console.Write(NumberB + " ");
-        NumberB = NumberB + 2;
+        Console.Write(numberB + " ");
+        numberB = numberB + 2;
     }
 }
